@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+	margin:0;
+	padding:0;
+	background: #f0eee1;
+	font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+	color: #6f868c;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:1em 0 0.5em;
+	color:#000;
+}
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+	margin:0.3em 0 0.5em;
+    color:#000;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.wrapper {
+	width:960px;
+	margin:0 auto;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.centar{
+    text-align: center;
+}
+.button{
+	padding: 5px;
+	font-size: 20px;
+	margin:5px;
+}
+.button:hover{
+	border-bottom:2px solid black;
+}
+.result{
+	border-bottom: 2px solid black;
+	margin:5px auto;
+	padding:10px;
+	width:500px;
+	background-color:#e5e2cd;
+	font-size: 18px;
+	text-align: left;
+}
+.result p{
+	padding:4px;
+}
+input[type="text"] {
+    width: 250px;
+    padding: 5px;
+}
+#insertform{
+	margin:10px;
+	padding:10px;
+}
+.deletebutton{
+	padding: 5px;
+	font-size: 20px;
+	margin:5px;
+	background-color:white;
+}
+.deletebutton:hover{
+	border-bottom:2px solid black;
+}
+#searchbutton{
+	padding:5px;
+}
+#insertbutton{
+	padding:5px;
+}
